@@ -26,10 +26,10 @@ public class timeDemo {
         Time lunchTime = new Time(12, 2, 10); 
         System.out.println(lunchTime); 
         
-        Time csc211 = new Time(lunchTime); 
+        Time times = new Time(lunchTime); 
         
-        System.out.println(csc211); 
-        if (lunchTime.equals(csc211)) { 
+        System.out.println(times); 
+        if (lunchTime.equals(times)) { 
             System.out.println("They are equal"); 
         } else { 
             System.out.println("They are different"); 
